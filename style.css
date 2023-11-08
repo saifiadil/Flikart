@@ -1,0 +1,569 @@
+header{
+    background-color: rgb(199, 194, 194);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: auto;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+   
+}
+.section-p1{
+    padding: 20px 40px;
+}
+#navbar ul{
+    display: flex;
+}
+
+#navbar ul li{
+    padding: 0 14px;
+    list-style: none;
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+
+
+#landing{
+    background-image: url("Image/young-confident-woman-showing-logo-empty-space-smiling-girl-inviting-advertising-promo-deal-pointing-removebg-preview.png");
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-color: rgb(133, 83, 83);
+   background-position: right;
+   background-attachment: fixed;
+  
+   
+}
+
+#landing .content {
+    background: rgba(255, 255, 255, 0.7);
+    padding: 20px 10px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+#landing h1 {
+    font-size: 3em;
+    color: #000;
+}
+
+#landing h2 {
+    font-size: 1.5em;
+    color: #000;
+    margin: 20px 0;
+}
+
+#landing1{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-direction: column;
+   background-color: rgb(10, 14, 6);
+   padding-bottom: 10px;
+  
+}
+
+#landing1 h1{
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    font-variant: small-caps;
+}
+
+#landing1 h2{
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+    font-variant: small-caps;
+}
+
+#landing1 span{
+color: yellow;
+}
+#landing1 button{
+    padding: 10px;
+    background-color: yellow;
+    color: black;
+    font-weight: 900;
+    border: none;
+}
+
+.shop {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+}
+
+
+#product h1{
+    text-align: center;
+    font-size: 30px;
+  text-transform: uppercase;
+}
+
+#products{
+    cursor: pointer;
+}
+
+#box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+.innerbox{
+    width: 200px;
+    height: 340px;
+    padding: 10px;
+    outline: none;
+    border-radius: 12px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.innerbox img{
+   width: 100%;
+   border-radius: 20px;
+  
+}
+
+.innerbox p{
+    margin-top: 5px;
+    color: red;
+}
+.innerbox h2{
+    font-size: 15px;
+}
+
+.star{
+    font-size: 10px;
+    color: orange;
+}
+
+.cart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#add{
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    padding-top: 12px;
+    padding-left: 10px;
+    border-radius: 50px;
+    color: orange;
+}
+
+
+#banner{
+    background-color: black;
+    height: 25vh;
+    width: 100%;
+    margin-bottom: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#banner h4{
+    font-size: 25px;
+    color: red;
+    font-variant: small-caps;
+    margin: 0;
+    margin-top: 20px;
+   
+}
+#banner h1{
+    margin: 10 0;
+    margin-bottom: 20px;
+    font-variant: small-caps;
+}
+
+#banner h1 span{
+    color: yellow;
+    font-size: 35px;
+}
+
+#banner button{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#newsletter{
+    background-color: rgb(8, 4, 35);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   padding: 0 20px;
+    
+  
+}
+
+#newsletter h1{
+    color: white;
+    font-size: 15px;
+}
+
+#newsletter p{
+    color: white;
+    font-size: 15px;
+}
+#newsletter span{
+    color: yellow;
+    text-transform: uppercase;
+}
+.input{
+    display: flex;
+}
+
+input{
+    height: 30px;
+    width: 100%;
+    border: none;
+    padding-left: 10px;
+}
+
+.input button{
+   width: 90px;
+    background-color: rgb(255, 208, 0);
+    margin: 0;
+    color: black;
+    border: none;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: rgb(245, 207, 207);
+}
+
+footer .col{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+footer img{
+    width: 40px;
+}
+
+footer .logo{
+    margin-bottom: 30px;
+}
+
+footer h4{
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+footer p{
+    font-size: 13px;
+   margin: 0;
+   text-align: center;
+
+}
+footer i:first-child{
+    color: blue;
+}
+
+footer i:nth-child(2){
+    color: blue;
+}
+footer i:nth-child(3){
+    color: purple;
+}
+footer i:last-child{
+    color: red;
+}
+
+
+.copyright{
+    text-align: center;
+    width: 100%;
+}
+
+.pay{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.pay img{
+    padding: 0 5px;
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.col a{
+    margin-top: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+
+}
+
+.col p{
+    margin-top: 10px;
+}
+
+.col h4{
+    text-transform: uppercase;
+    color: red;
+    font-weight: 900;
+    font-variant: small-caps;
+}
+
+.row img{
+    margin-top: 10px;
+}
+
+/* #bar{
+    z-index: 1;
+   
+    
+}
+
+#bars{
+    color: black;
+    font-size: 25px;
+    margin-right: 10px;
+    display: none;
+}
+.active{
+    right: 0;
+} */
+
+#bar{
+    display: none;
+   
+}
+
+#close{
+    display: none;
+}
+
+#close i{
+    color: black;
+
+}
+#navbar ul.active{
+    right: 0px;
+}
+
+
+/* single page */
+
+#prodetails{
+    margin-top: 10px;
+    display: flex;
+   
+    
+}
+
+ #prodetails .single{
+    width: 40%;
+    margin-right: 50px;
+}
+
+.small {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col{
+    flex-basis: 24%;
+}
+
+.single-pro{
+   width: 50%;
+   padding-top: 20px;
+}
+
+.single-pro select{
+margin-bottom: 10px;
+padding: 10px;
+border: none;
+font-weight: 700;
+box-shadow: 2px 3px 4px gray;
+}
+.single-pro input{
+    margin-bottom: 10px;
+    width: 30px;
+    padding: 3.8px;
+    text-align: center;
+    border: none;
+    box-shadow: 2px 3px 4px gray;
+    outline: none;
+}
+.single-pro button{
+    padding: 10px;
+    background-color: rgb(13, 234, 13);
+    color: rgb(0, 0, 0);
+    border: none;
+    text-transform: uppercase;
+}
+
+
+/* media query */
+
+@media screen and (max-width:768px) {
+    #navbar ul{
+         
+      
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position:fixed;
+        top: -8px;
+       right: -250px;
+        height: 100vh;
+        width: 200px;
+        background-color: rgb(199, 194, 194);
+        padding: 90px 0 0 10px;
+        transition: all 0.5s;
+        overflow: hidden;
+       
+    
+    }
+
+    #navbar ul li{
+        padding: 20px 10px;
+    }
+
+    #bar{
+        display: flex;
+        margin-right: 20px;
+        font-size: 20px;
+    }
+
+    #close{
+        display: flex;
+        position: absolute;
+        top: 40px;
+        margin-left: 10px;
+        
+    }
+    #close a i{
+        text-decoration: none;
+    }
+    #landing{
+      background-position:  center;
+    }
+
+    #landing .content{
+        padding: 10%;
+        max-width: 100%;
+        
+    }
+
+  
+}
+
+@media screen and (max-width: 700px) {
+    #prodetails .single{
+        width: 100%;
+        
+    }
+    #prodetails{
+        display: flex;
+        flex-direction: column;
+    }
+    .single-pro{
+        width: 100%;
+        margin-left: 10px;
+        
+     }
+}
+
+@media screen and (max-width: 650px) {
+    #landing h1{
+        font-size: 20px;
+    }
+    #landing h2{
+        font-size: 15px;
+    }
+    .shop{
+        padding: 10px 10px;
+        font-size: 15px;
+    }
+
+    #box{
+        justify-content: center;
+       
+    }
+
+    #newsletter{
+        flex-direction: column;
+        text-align: center;
+       
+    }
+
+    #newsletter input{
+        margin-bottom: 10px;
+    }
+
+    #newsletter button{
+        margin-bottom: 10px;
+    }
+}
+
+
+@media screen and (max-width:500px) {
+    #landing{
+        background-position: center;
+    }
+
+    #landing h1{
+        font-size: 15px;
+    }
+
+    #landing h2{
+        font-size: 12px;
+    }
+    .shop{
+        padding: 5px 5px;
+        font-size: 10px;
+    }
+
+    footer{
+        flex-direction: column;
+    }
+   
+}
+
+@media screen and (max-width:400px) {
+    #banner h1{
+        font-size: 20px;
+    }
+
+    #banner button{
+        padding: 10px 10px;
+        font-size: 15px;
+    }
+}
+
